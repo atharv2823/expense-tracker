@@ -1,0 +1,52 @@
+*{
+    padding: 5px;
+}
+.Home-logout{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.net-transaction-value-iteam{
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.net-transaction-value{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto ;
+}
+.net-transaction-value-title{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.net-transaction-value-amount{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.transaction-container{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.add-transaction{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+.add-transaction:hover{
+    background-color: green;
+}

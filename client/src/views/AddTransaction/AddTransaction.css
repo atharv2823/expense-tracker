@@ -1,0 +1,13 @@
+.add-transaction-title{
+    text-align: center;
+}
+.transcation-delete{
+    background-color: red;
+    font-size: 15px;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,21 @@
+.Transaction-card{
+    border: 2px solid gray;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.transcation-card-amount{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    right: 10px;
+    top: 10px;
+
+}
+.transcation-card-category{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 20px;
+}
