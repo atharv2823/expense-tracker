@@ -70,8 +70,8 @@ function Home() {
 
   return (
     <div>
-      <h1>Hello {user.fullName}</h1>
-      <h2>Welcome To Expense Tracker</h2>
+      <h1>Hello {user.fullName} 👋</h1>
+      <h2 className='greet'>Welcome To Expense Tracker 📝</h2>
 
 
       <span className='Home-logout' onClick={() => {
