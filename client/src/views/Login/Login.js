@@ -36,7 +36,7 @@ function Login() {
 
   return (
     <div>
-      <h1 className='auth-heading'> User Login Now</h1>
+      <h1 className='auth-heading'> User Login For Your Expense Tracker </h1>
 
       <form className='auth-form'>
         <input
